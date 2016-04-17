@@ -1489,7 +1489,7 @@
   [map key] (. clojure.lang.RT (find map key)))
 
 (defn select-keys
-  "Returns a map containing only those entries in map whose key is in keys"
+  "Returns a map containing only those entries in map whose key is in keyseq"
   {:added "1.0"
    :static true}
   [map keyseq]
